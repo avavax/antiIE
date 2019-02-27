@@ -1,0 +1,16 @@
+.ie-warning {
+	display: none;
+}
+
+@media screen and (-ms-high-contrast: active), all and (-ms-high-contrast: none) {
+	.container {
+		display: none;
+	}
+	.ie-warning {
+		display: block;
+		text-align: center;
+		margin-top: 50px;
+		color: black;
+		line-height: 32px;
+	}
+}
